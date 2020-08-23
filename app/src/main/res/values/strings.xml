@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">calling sos</string>
+    <string name="menu_t">Menu</string>
+    <string name="emergency_goma">Emergency Goma</string>
+</resources>
