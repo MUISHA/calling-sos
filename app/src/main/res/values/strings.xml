@@ -1,5 +1,68 @@
 <resources>
     <string name="app_name">calling sos</string>
+
+
+    <string name="open_drawer">Open Drawer</string>
+    <string name="cloase_drawer">Close Drawer</string>
     <string name="menu_t">Menu</string>
     <string name="emergency_goma">Emergency Goma</string>
+    <string name="search">Search</string>
+    <string name="etes_vous">Etes-vous sur de Fermer</string>
+    <string name="exit">Exit</string>
+
+    <!-- Type d'appels-->
+    <string-array name="TYPE_SOS">
+        <item name="app_accouch">Acouchement complique</item>
+        <item>Accident routier</item>
+        <item>Violence</item>
+        <item>Incedie</item>
+    </string-array>
+    <!-- Domicile de l'entreprise-->
+    <string name="gender_lieu">Lieu entreprise</string>
+    <string name="gender_domicile">Domicile</string>
+    <string name="gender_bureau">Bureu</string>
+    <!-- Fin Domicile de l'entreprise-->
+    <!-- Commune de l'entreprise-->
+    <string name="gender_commune">Commune</string>
+    <string name="comm_goma">Goma</string>
+    <string name="comm_karis">Karisimbi</string>
+    <!-- Fin Commune de l'entreprise-->
+    <!-- Commune de l'entreprise-->
+    <string name="gender_quartier">Quartier</string>
+    <string name="quartie_lesvol">Les volcans</string>
+    <string name="quartie_mik">Mikeno</string>
+    <string name="quartier_himb">Himbi</string>
+    <string name="quartier_Kyesh">Kyeshero</string>
+    <string name="quartier_lacv">Lac vert</string>
+
+    <string name="quartier_kah">Kahembe</string>
+    <string name="quartier_mur">Murara</string>
+    <string name="quartier_vir">Virunga</string>
+    <string name="quartier_maj">Majengo</string>
+    <string name="quartier_maban_s">Mabanga sud</string>
+    <string name="quartier_maban_n">Mabanga nord</string>
+    <string name="quartier_ndos">Ndosho</string>
+    <string name="quartier_mung">Mungunga</string>
+    <string name="quartier_katin1">Katindo 1</string>
+    <string name="quartier_katin2">Katindo 2</string>
+    <!-- Fin Commune de l'entreprise-->
+    <!-- Début txt_type de l'entreprise-->
+    <string name="gender_type">Type d\'entreprise</string>
+    <string name="type_sani">Sanitaire</string>
+    <string name="type_par">Para-étatique</string>
+    <string name="type_priv">Privée</string>
+    <string name="type_etat">Etatique</string>
+    <string name="type_loca">Local</string>
+    <string name="type_intern">Internatioonal</string>
+    <string name="type_univ">Universitaire</string>
+    <string name="type_inst_s">Institut superieur</string>
+    <string name="type_inst_se">Institut sécondaire</string>
+    <string name="type_ecolep">Ecole primaire et maternel</string>
+    <string name="type_ecoleprim">Ecole primaire</string>
+    <string name="nam_exit">Exit</string>
+    <string name="etesvousur">Vous voulez quitté</string>
+    <string name="fachion_kingqueen">\@fachion_kingqueen</string>
+    <string name="aganze_zagabe_gloire">AGANZE ZAGABE Gloire</string>
+
+    <!-- Fin txt_type de l'entreprise-->
 </resources>

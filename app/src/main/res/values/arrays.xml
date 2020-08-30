@@ -1,4 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="array_gender_lieu">
+        <item>@string/gender_lieu</item>
+        <item>@string/gender_domicile</item>
+        <item>@string/gender_bureau</item>
+    </string-array>
+    <string-array name="array_gender_commune">
+        <item>@string/gender_commune</item>
+        <item>@string/comm_goma</item>
+        <item>@string/comm_karis</item>
+    </string-array>
+    <string-array name="array_gender_quartier">
+        <!-- Debut Goma-->
+        <item>@string/gender_quartier</item>
+        <item>@string/quartie_lesvol</item>
+        <item>@string/quartier_himb</item>
+        <item>@string/quartier_lacv</item>
+        <item>@string/quartier_Kyesh</item>
+        <item>@string/quartie_mik</item>
+        <!-- Fin Goma-->
+        <!-- Debut Karisimbi-->
+        <item>@string/quartier_kah</item>
+        <item>@string/quartier_mur</item>
+        <item>@string/quartier_vir</item>
+        <item>@string/quartier_maj</item>
+        <item>@string/quartier_maban_n</item>
+        <item>@string/quartier_maban_s</item>
+        <item>@string/quartier_ndos</item>
+        <item>@string/quartier_mung</item>
+        <item>@string/quartier_katin1</item>
+        <item>@string/quartier_katin2</item>
 
-</resources>
+        <!-- Fin Karisimbi-->
+    </string-array>
+    <string-array name="array_gender_type">
+        <item>@string/gender_type</item>
+        <item>@string/type_sani</item>
+        <item>@string/type_par</item>
+        <item>@string/type_etat</item>
+        <item>@string/type_loca</item>
+        <item>@string/type_priv</item>
+        <item>@string/type_intern</item>
+        <item>@string/type_univ</item>
+        <item>@string/type_inst_s</item>
+        <item>@string/type_ecolep</item>
+        <item>@string/type_inst_se</item>
+        <item>@string/type_ecoleprim</item>
+    </string-array>
+    </resources>

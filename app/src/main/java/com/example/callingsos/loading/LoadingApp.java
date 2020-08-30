@@ -8,7 +8,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.callingsos.MainActivity;
 import com.example.callingsos.R;
 import com.example.callingsos.menu.Menu;
 

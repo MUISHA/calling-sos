@@ -1,18 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".frontend.MainActivity">
+<!--
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+-->
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <include android:id="@+id/toolbar_id"
+        layout="@layout/toolbars"/>
+    <LinearLayout
+        android:id="@+id/frst_ll"
+        android:layout_below="@+id/toolbar_id"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:gravity="center"
+        android:background="@color/clr_otp_bg">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/phone_png"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/frst_ll"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Democratic Reupblic of Congo(+243)"
+            android:paddingLeft="10dp" />
+
+        <EditText
+            android:id="@+id/ed_enter"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:hint="+243970117312"
+            android:gravity="right|start"
+            android:paddingLeft="10dp"
+            android:inputType="phone"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="We will send you a One time SMS message\nCarrier rates may apply"
+            android:layout_marginTop="8dp"/>
+
+       <com.google.android.material.floatingactionbutton.FloatingActionButton
+           android:id="@+id/btn_calling"
+           android:src="@drawable/ic_right"
+           android:layout_width="50dp"
+           android:layout_marginTop="10dp"
+           android:layout_height="50dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

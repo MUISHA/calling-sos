@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    tools:context=".frontend.AudioCall">
+        <!--
+
+        -->
+
+        <include android:id="@+id/toolbar_id"
+            layout="@layout/toolbars"/>
+        <LinearLayout
+            android:id="@+id/frst_ll"
+            android:layout_below="@+id/toolbar_id"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="center"
+            android:background="@color/clr_otp_bg">
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:background="@drawable/ic_phone_sos"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/frst_ll"
+            android:padding="10dp">
+            <TextView
+                android:id="@+id/ur_sos1_location"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/colorBlue"
+                android:layout_width="match_parent"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/ur_sos1_text"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            android:gravity="center_horizontal"
+            android:layout_below="@+id/ur_sos1_location"
+            android:textColor="@color/colorBlue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+            <EditText
+                android:id="@+id/ed_enter"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="+243970117312"
+                android:layout_margin="70dp"
+                android:layout_centerInParent="true"
+                android:layout_below="@+id/ur_sos1_text"
+                android:drawableLeft="@drawable/ic_phone"
+                android:inputType="phone"/>
+
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floatingActionButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="16dp"
+                android:layout_below="@+id/ed_enter"
+                android:contentDescription="@string/fab_content_desc"
+                app:srcCompat="@drawable/ic_sos"
+                tools:ignore="VectorDrawableCompat"
+                app:fabSize="mini" />
+        </RelativeLayout>
+    </RelativeLayout>
