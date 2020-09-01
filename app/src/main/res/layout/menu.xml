@@ -9,14 +9,7 @@
     android:fitsSystemWindows="true"
     tools:context=".menu.Menu"
     tools:openDrawer="start">
-    <com.google.android.material.navigation.NavigationView
-        android:id="@+id/nav_view"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        app:headerLayout="@layout/headers"
-        app:menu="@menu/menu_main"
-        android:layout_gravity="start"
-        />
+
     <!--
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/nav_view"
@@ -221,7 +214,7 @@
                             android:layout_centerHorizontal="true"
                             android:layout_centerVertical="false"
                             android:layout_marginTop="30dp"
-                            android:src="@drawable/ic_traking"
+                            android:src="@drawable/ic_sos_lct"
                             app:civ_border_color="@color/colorPrimary"
                             app:civ_border_width="2dp"
                             tools:ignore="MissingPrefix" />
@@ -257,12 +250,12 @@
 
                         <de.hdodenhof.circleimageview.CircleImageView
                             android:id="@+id/img_map"
-                            android:layout_width="60dp"
-                            android:layout_height="60dp"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
                             android:layout_centerHorizontal="true"
                             android:layout_centerVertical="false"
                             android:layout_marginTop="30dp"
-                            android:src="@drawable/ic_place"
+                            android:src="@drawable/ic_placeholder"
                             app:civ_border_color="@color/colorBlack"
                             app:civ_border_width="2dp" />
 

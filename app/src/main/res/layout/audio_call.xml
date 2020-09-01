@@ -69,7 +69,6 @@
                 android:layout_centerVertical="true"
                 android:layout_margin="16dp"
                 android:layout_below="@+id/ed_enter"
-                android:contentDescription="@string/fab_content_desc"
                 app:srcCompat="@drawable/ic_sos"
                 tools:ignore="VectorDrawableCompat"
                 app:fabSize="mini" />

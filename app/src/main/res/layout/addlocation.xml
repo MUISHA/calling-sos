@@ -14,7 +14,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|right"
         android:layout_margin="16dp"
-        android:contentDescription="@string/fab_content_desc"
         app:srcCompat="@drawable/ic_add_location"
         tools:ignore="VectorDrawableCompat"
         app:fabSize="mini" />

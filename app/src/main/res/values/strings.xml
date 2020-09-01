@@ -63,6 +63,10 @@
     <string name="etesvousur">Vous voulez quitté</string>
     <string name="fachion_kingqueen">\@fachion_kingqueen</string>
     <string name="aganze_zagabe_gloire">AGANZE ZAGABE Gloire</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="emergecy">Emergency SOS</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">longitude</string>
 
     <!-- Fin txt_type de l'entreprise-->
 </resources>
